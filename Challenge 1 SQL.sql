@@ -155,7 +155,7 @@ WHERE c.cus_id = 2;
 --- Q8
 select cus_name, cus_gender 
 from Customer
-where cus_name LIKE ('A%') and cus_name LIKE ('%A');
+where cus_name LIKE ('A%') or cus_name LIKE ('%A');
 
 --- Q7
 SELECT p.pro_id, p.pro_name
